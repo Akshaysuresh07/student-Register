@@ -1,0 +1,11 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#homec{
+    background: linear-gradient(to right, rgb(224, 79, 79),rgb(137, 167, 194));
+}
+#regcon{
+    background-color: rgb(132, 167, 197);
+}
