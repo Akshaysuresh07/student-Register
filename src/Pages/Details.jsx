@@ -1,12 +1,11 @@
 import React, { useEffect, useState } from 'react'
 import Header from '../components/Header'
-import Footer from '../components/Footer'
 import { Table } from 'react-bootstrap'
 import { useNavigate } from 'react-router-dom'
 import { displayUsersApi } from '../../Services/allApi'
 
 function Details() {
-  const navigate=useNavigate()
+
   const [dUser,setDUser]=useState([])
 
   const getStudentDetails=async()=>{
@@ -69,7 +68,7 @@ function Details() {
 
 
 
-  <Footer/>
+
   
   </>
   )
